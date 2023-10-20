@@ -1,25 +1,16 @@
-import Button from "@/components/button";
+import Image from "next/image";
 import Icon from "@/components/icon";
 import SquareButton from "@/components/squarebutton";
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <>
-      <div className="flex justify-center items-center w-full h-[100vh]">
-        <p className="text-[10vw]">ERAVERSE</p>
-        <div className="absolute bg-[none] w-[100%] h-[100vh] flex items-center justify-center">
-          <div className="relative w-[24vw] h-[30vw] ">
-            <Image src={'/girl2.png'} alt="girl" fill={true}/>
-          </div>
+import Button from "@/components/button";
+export default function Mint(){
+    return(
+        <>
+        <div className="h-[100vh] bg-[#0D0C0C] flex items-center justify-center w-[100%]">
+           <div className="relative h-[72vh] w-[45vh]">
+               <Image src="/nft.png" fill={true} alt="nft"/>
+            </div>
         </div>
-        <div className="absolute bg-[none] w-[100%] h-[100vh] flex items-center pl-[2vw] justify-start">
-          <div className="relative w-[18vw] h-[24vw] ">
-            <Image src={'/girl1.png'} alt="girl" fill={true}/>
-          </div>
-        </div>
-      </div>
-      <div className='flex justify-center align-center absolute bottom-[4%] w-[100%]'>
+        <div className='flex justify-center align-center absolute bottom-[4%] w-[100%]'>
                 <div className='bg-[#121212] rounded-md p-1 flex items-center gap-5'>
                     <div>
                         <SquareButton/>
@@ -41,7 +32,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
-    </>
-  )
+        </>
+    )
 }
