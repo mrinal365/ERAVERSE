@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 //import Components below
 import Icon from '@/components/icon/index'
@@ -19,7 +20,9 @@ export default function Community() {
             <div className='flex justify-center align-center absolute bottom-[4%] w-[100%]'>
                 <div className='bg-[#121212] rounded-md p-1 flex items-center gap-5'>
                     <div>
-                        <SquareButton/>
+                    <Link href="/">
+                        <SquareButton src={'/iconab.png'}/>
+                        </Link>
                     </div>
                     <div className='h-1.5 w-1.5 bg-[lightgreen] rounded-lg'>
 
@@ -29,10 +32,10 @@ export default function Community() {
                             <p>Community</p>
                         </div>
                         <div className='flex gap-2'>
-                            <Icon />
-                            <Icon />
-                            <Icon />
-                            <Icon />
+                            <Icon src={'/icond.png'} />
+                            <Icon  src={'/iconx.png'} />
+                            <Icon src={'/iconi.png'} />
+                            <Icon src={'/icona.png'}/>
                             <Button />
                         </div>
                     </div>
