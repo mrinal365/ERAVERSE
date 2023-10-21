@@ -27,12 +27,12 @@ export default function Mint() {
                     </div>
                     <div className="flex gap-3 sm:gap-5 text-white bg-[#3E3E3E] h-[100%] w-fit max-w-[100%] py-1 px-2 rounded-md items-center pl-6">
                         <div className='text-white'>
-                            <p>Mint</p>
+                            <p className="text-sm sm:text-base ">Mint</p>
                         </div>
                         <div className='flex gap-2'>
                             <ButtonSec title="No. of NFT's" />
                             <div className="flex bg-[] items-center mr-2 ml-2">
-                                <p>Total Price: $0.00 </p>
+                                <p className="text-sm sm:text-base ">Total Price: $0.00 </p>
                             </div>
                             {connected ? <Button title="Mint" /> : <Button title="Connect wallet first" />}
 

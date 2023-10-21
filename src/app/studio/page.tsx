@@ -30,7 +30,7 @@ export default function Studio() {
                             <div className='relative h-[2vh] w-[2vh] '>
                                 <Image src={'/danger.png'} fill={true} alt="danger" />
                             </div>
-                            <p>The Studio is coming soon!</p>
+                            <p className="text-sm sm:text-base ">The Studio is coming soon!</p>
                         </div>
                         <div className='flex gap-2'>
 

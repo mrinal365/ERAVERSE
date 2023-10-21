@@ -27,16 +27,16 @@ export default function Community() {
                     <div className='h-1.5 w-1.5 bg-[lightgreen] rounded-lg'>
 
                     </div>
-                    <div className="flex gap-3 sm:gap-5 text-white bg-[#3E3E3E] h-[100%] w-fit max-w-[100%] py-1 px-2 rounded-md items-center pl-6">
+                    <div className="flex gap-3 sm:gap-5 text-white bg-[#3E3E3E] h-[100%] w-fit max-w-[100%] py-0 px-2 rounded-md items-center pl-6">
                         <div className='text-white'>
-                            <p>Community</p>
+                            <p className='text-sm'>Community</p>
                         </div>
                         <div className='flex gap-2'>
                             <Icon src={'/icond.png'} />
                             <Icon  src={'/iconx.png'} />
                             <Icon src={'/iconi.png'} />
                             <Icon src={'/icona.png'}/>
-                            <Button />
+                            <Button title="Get in Touch"/>
                         </div>
                     </div>
                 </div>
