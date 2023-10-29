@@ -43,27 +43,7 @@ export default function Shop() {
                     <Image src={'/tshirt3.png'} fill={true} alt="tshirt3" />
                 </div>
             </div>
-            <div className='flex justify-center align-center absolute bottom-[4%] w-[100%]'>
-                <div className='bg-[#21212180] backdrop-blur	  rounded-md p-1 flex items-center gap-5'>
-                    <div> 
-                        <Link href="/">
-                        <SquareButton src={'/iconab.png'} />
-                        </Link>
-                    </div>
-                    <div className='h-1.5 w-1.5 bg-[lightgreen] rounded-lg'>
-
-                    </div>
-                    <div className="flex gap-3 sm:gap-5 text-white bg-[#3E3E3E] h-[100%] w-fit max-w-[100%] py-1 px-2 rounded-md items-center pl-6 mobile:pl-2">
-                        <div className='text-white'>
-                            <p className='mobile:text-[10px]'>Shop</p>
-                        </div>
-                        <div className='flex gap-2'>
-                           <ButtonSec title="Apparel"/>
-                            <ButtonSec title="Collectibles"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </>
     )
 }
